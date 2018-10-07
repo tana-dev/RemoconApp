@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55D279322169F60E00C22AFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D279312169F60E00C22AFB /* AppDelegate.swift */; };
+		55D279342169F60E00C22AFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D279332169F60E00C22AFB /* ViewController.swift */; };
+		55D279372169F60E00C22AFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55D279352169F60E00C22AFB /* Main.storyboard */; };
+		55D2793A2169F60E00C22AFB /* RemoconApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 55D279382169F60E00C22AFB /* RemoconApp.xcdatamodeld */; };
+		55D2793C2169F60F00C22AFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55D2793B2169F60F00C22AFB /* Assets.xcassets */; };
+		55D2793F2169F60F00C22AFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55D2793D2169F60F00C22AFB /* LaunchScreen.storyboard */; };
+		55D2794A2169F60F00C22AFB /* RemoconAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D279492169F60F00C22AFB /* RemoconAppTests.swift */; };
+		55D279552169F60F00C22AFB /* RemoconAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D279542169F60F00C22AFB /* RemoconAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		55D279462169F60F00C22AFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55D279262169F60E00C22AFB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55D2792D2169F60E00C22AFB;
+			remoteInfo = RemoconApp;
+		};
+		55D279512169F60F00C22AFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55D279262169F60E00C22AFB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55D2792D2169F60E00C22AFB;
+			remoteInfo = RemoconApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		55D2792E2169F60E00C22AFB /* RemoconApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RemoconApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55D279312169F60E00C22AFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		55D279332169F60E00C22AFB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		55D279362169F60E00C22AFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		55D279392169F60E00C22AFB /* RemoconApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RemoconApp.xcdatamodel; sourceTree = "<group>"; };
+		55D2793B2169F60F00C22AFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		55D2793E2169F60F00C22AFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		55D279402169F60F00C22AFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55D279452169F60F00C22AFB /* RemoconAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RemoconAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55D279492169F60F00C22AFB /* RemoconAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoconAppTests.swift; sourceTree = "<group>"; };
+		55D2794B2169F60F00C22AFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55D279502169F60F00C22AFB /* RemoconAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RemoconAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55D279542169F60F00C22AFB /* RemoconAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoconAppUITests.swift; sourceTree = "<group>"; };
+		55D279562169F60F00C22AFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55D2792B2169F60E00C22AFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55D279422169F60F00C22AFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55D2794D2169F60F00C22AFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55D279252169F60E00C22AFB = {
+			isa = PBXGroup;
+			children = (
+				55D279302169F60E00C22AFB /* RemoconApp */,
+				55D279482169F60F00C22AFB /* RemoconAppTests */,
+				55D279532169F60F00C22AFB /* RemoconAppUITests */,
+				55D2792F2169F60E00C22AFB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55D2792F2169F60E00C22AFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55D2792E2169F60E00C22AFB /* RemoconApp.app */,
+				55D279452169F60F00C22AFB /* RemoconAppTests.xctest */,
+				55D279502169F60F00C22AFB /* RemoconAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55D279302169F60E00C22AFB /* RemoconApp */ = {
+			isa = PBXGroup;
+			children = (
+				55D279312169F60E00C22AFB /* AppDelegate.swift */,
+				55D279332169F60E00C22AFB /* ViewController.swift */,
+				55D279352169F60E00C22AFB /* Main.storyboard */,
+				55D2793B2169F60F00C22AFB /* Assets.xcassets */,
+				55D2793D2169F60F00C22AFB /* LaunchScreen.storyboard */,
+				55D279402169F60F00C22AFB /* Info.plist */,
+				55D279382169F60E00C22AFB /* RemoconApp.xcdatamodeld */,
+			);
+			path = RemoconApp;
+			sourceTree = "<group>";
+		};
+		55D279482169F60F00C22AFB /* RemoconAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				55D279492169F60F00C22AFB /* RemoconAppTests.swift */,
+				55D2794B2169F60F00C22AFB /* Info.plist */,
+			);
+			path = RemoconAppTests;
+			sourceTree = "<group>";
+		};
+		55D279532169F60F00C22AFB /* RemoconAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				55D279542169F60F00C22AFB /* RemoconAppUITests.swift */,
+				55D279562169F60F00C22AFB /* Info.plist */,
+			);
+			path = RemoconAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55D2792D2169F60E00C22AFB /* RemoconApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55D279592169F60F00C22AFB /* Build configuration list for PBXNativeTarget "RemoconApp" */;
+			buildPhases = (
+				55D2792A2169F60E00C22AFB /* Sources */,
+				55D2792B2169F60E00C22AFB /* Frameworks */,
+				55D2792C2169F60E00C22AFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RemoconApp;
+			productName = RemoconApp;
+			productReference = 55D2792E2169F60E00C22AFB /* RemoconApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		55D279442169F60F00C22AFB /* RemoconAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55D2795C2169F60F00C22AFB /* Build configuration list for PBXNativeTarget "RemoconAppTests" */;
+			buildPhases = (
+				55D279412169F60F00C22AFB /* Sources */,
+				55D279422169F60F00C22AFB /* Frameworks */,
+				55D279432169F60F00C22AFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55D279472169F60F00C22AFB /* PBXTargetDependency */,
+			);
+			name = RemoconAppTests;
+			productName = RemoconAppTests;
+			productReference = 55D279452169F60F00C22AFB /* RemoconAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		55D2794F2169F60F00C22AFB /* RemoconAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55D2795F2169F60F00C22AFB /* Build configuration list for PBXNativeTarget "RemoconAppUITests" */;
+			buildPhases = (
+				55D2794C2169F60F00C22AFB /* Sources */,
+				55D2794D2169F60F00C22AFB /* Frameworks */,
+				55D2794E2169F60F00C22AFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55D279522169F60F00C22AFB /* PBXTargetDependency */,
+			);
+			name = RemoconAppUITests;
+			productName = RemoconAppUITests;
+			productReference = 55D279502169F60F00C22AFB /* RemoconAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55D279262169F60E00C22AFB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "田中 俊一";
+				TargetAttributes = {
+					55D2792D2169F60E00C22AFB = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					55D279442169F60F00C22AFB = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 55D2792D2169F60E00C22AFB;
+					};
+					55D2794F2169F60F00C22AFB = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 55D2792D2169F60E00C22AFB;
+					};
+				};
+			};
+			buildConfigurationList = 55D279292169F60E00C22AFB /* Build configuration list for PBXProject "RemoconApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 55D279252169F60E00C22AFB;
+			productRefGroup = 55D2792F2169F60E00C22AFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55D2792D2169F60E00C22AFB /* RemoconApp */,
+				55D279442169F60F00C22AFB /* RemoconAppTests */,
+				55D2794F2169F60F00C22AFB /* RemoconAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55D2792C2169F60E00C22AFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55D2793F2169F60F00C22AFB /* LaunchScreen.storyboard in Resources */,
+				55D2793C2169F60F00C22AFB /* Assets.xcassets in Resources */,
+				55D279372169F60E00C22AFB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55D279432169F60F00C22AFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55D2794E2169F60F00C22AFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55D2792A2169F60E00C22AFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55D279342169F60E00C22AFB /* ViewController.swift in Sources */,
+				55D2793A2169F60E00C22AFB /* RemoconApp.xcdatamodeld in Sources */,
+				55D279322169F60E00C22AFB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55D279412169F60F00C22AFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55D2794A2169F60F00C22AFB /* RemoconAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55D2794C2169F60F00C22AFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55D279552169F60F00C22AFB /* RemoconAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		55D279472169F60F00C22AFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55D2792D2169F60E00C22AFB /* RemoconApp */;
+			targetProxy = 55D279462169F60F00C22AFB /* PBXContainerItemProxy */;
+		};
+		55D279522169F60F00C22AFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55D2792D2169F60E00C22AFB /* RemoconApp */;
+			targetProxy = 55D279512169F60F00C22AFB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		55D279352169F60E00C22AFB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55D279362169F60E00C22AFB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		55D2793D2169F60F00C22AFB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55D2793E2169F60F00C22AFB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		55D279572169F60F00C22AFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		55D279582169F60F00C22AFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55D2795A2169F60F00C22AFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RemoconApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tanaka.RemoconApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		55D2795B2169F60F00C22AFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RemoconApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tanaka.RemoconApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		55D2795D2169F60F00C22AFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RemoconAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tanaka.RemoconAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RemoconApp.app/RemoconApp";
+			};
+			name = Debug;
+		};
+		55D2795E2169F60F00C22AFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RemoconAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tanaka.RemoconAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RemoconApp.app/RemoconApp";
+			};
+			name = Release;
+		};
+		55D279602169F60F00C22AFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RemoconAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tanaka.RemoconAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RemoconApp;
+			};
+			name = Debug;
+		};
+		55D279612169F60F00C22AFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RemoconAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tanaka.RemoconAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RemoconApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55D279292169F60E00C22AFB /* Build configuration list for PBXProject "RemoconApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55D279572169F60F00C22AFB /* Debug */,
+				55D279582169F60F00C22AFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55D279592169F60F00C22AFB /* Build configuration list for PBXNativeTarget "RemoconApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55D2795A2169F60F00C22AFB /* Debug */,
+				55D2795B2169F60F00C22AFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55D2795C2169F60F00C22AFB /* Build configuration list for PBXNativeTarget "RemoconAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55D2795D2169F60F00C22AFB /* Debug */,
+				55D2795E2169F60F00C22AFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55D2795F2169F60F00C22AFB /* Build configuration list for PBXNativeTarget "RemoconAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55D279602169F60F00C22AFB /* Debug */,
+				55D279612169F60F00C22AFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		55D279382169F60E00C22AFB /* RemoconApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				55D279392169F60E00C22AFB /* RemoconApp.xcdatamodel */,
+			);
+			currentVersion = 55D279392169F60E00C22AFB /* RemoconApp.xcdatamodel */;
+			path = RemoconApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 55D279262169F60E00C22AFB /* Project object */;
+}
